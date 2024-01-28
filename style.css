@@ -1,0 +1,209 @@
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-size: 15px;
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+/* Header */
+
+header{
+    background-image: url('Images/1stimage.png');
+    padding: 40px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+nav ul li a{
+    font-family: Alata;
+    font-size: 15px;
+    text-decoration:none;
+    color: #FFFFFF
+    
+}
+
+/* Hero Section */
+
+.hero-section{
+    border: 3px solid hsl(0, 0%, 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 50px 0px;
+    min-width: 480px;
+}
+
+.hero-section h1 {
+    color: #FFFFFF;
+    font-size: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* History Section */
+
+section{
+    padding-top: 100px;
+}
+
+.history .left{
+    width: 731px;
+    height: 500px;
+    top: 810;
+    left: 164px;
+}
+
+.history .right{
+    background: #FFFFFF;
+    position: absolute;
+    top: 900px;
+    left: 45%;
+    padding: 95px;
+    max-width: 640px
+
+}
+
+.history .right h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0px;
+    font-size: 48px;
+}
+
+.history .right p{
+    font-family: Alata;
+    font-size: 15px;
+    
+}
+
+/* OUR CREATIONS */
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    padding-top:150px
+}
+
+/* GRID STYLE */
+
+.creation_heading_top h3{
+    font-size: 48px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform:uppercase;
+}
+.creation_box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.creation_box .creations {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.creations{
+    position:relative;
+    z-index: 1;   
+}
+
+.creations h4 {
+    position:absolute;
+    z-index: 2;
+    bottom: 1%;
+    left: 35px;
+    text-transform:uppercase;
+    font-size: 26px;
+    color:white;
+    font-family:'Josefin Sans', sans-serif;
+    line-height: 1;
+
+
+
+}
+
+/* FOOTER */
+
+footer{
+    padding: 15px 0px;
+    background-color: black;
+    color: #fff;
+    margin-top: 200px;
+
+}
+
+footer .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    
+}
+
+footer .socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    size: 24px;
+}
+
+.footer-logo{
+    width: 144px;
+    height: 24px;
+    margin-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+footer ul li a {
+    font-family: Alata;
+    font-size: 15px;
+    text-decoration:none;
+    color: #FFFFFF
+}
+
+ul li a {
+    display: inline-grid;
+}
+
+footer p.copyright {
+    font-family: Alata;
+    color: gray;
+    text-align: right;
+    font-size: 15px;
+}
